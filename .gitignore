@@ -1,0 +1,14 @@
+.build
+.mbed
+projectfiles
+*.py*
+mbed-os
+BUILD
+
+compile_commands.json
+.clangd
+.cache
+ros2mbed
+pidmotor
+rotaryencoder
+motorcontrol
