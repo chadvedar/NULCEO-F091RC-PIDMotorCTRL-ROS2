@@ -24,11 +24,11 @@ int main() {
     motor1.motor.set_pid_gain(20.0, 0.001, 0.005, 0.0);
     motor2.motor.set_pid_gain(20.0, 0.001, 0.005, 0.0);
 
-    motor1.set_encoder_resolution(0.000625);
+    motor1.set_encoder_resolution(0.0007633);
     motor1.init();
     motor1.start();
 
-    motor2.set_encoder_resolution(0.000625);
+    motor2.set_encoder_resolution(0.0007633);
     motor2.init();
     motor2.start();
 
